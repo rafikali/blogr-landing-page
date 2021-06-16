@@ -160,6 +160,7 @@ header {
 }
 .container-right {
    width: 50%;
+   
    background: url("../image/illustration-editor-desktop.svg");
    background-repeat: no-repeat;
    margin-top: 70px;
