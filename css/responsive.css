@@ -2,7 +2,13 @@
     .nav-right {
         display: none;
     }
-   
+   .nav-left {
+    padding-left: 15px;
+   }
+   .head-container {
+       background: url("../image/bg-pattern-intro.svg");
+       background-position: center;
+   }
    
     .about h1{
         text-align: center;
@@ -60,15 +66,15 @@
     .mob-container-left {
         width: 100%;
         background-size: cover;
-        background-position-y: -107px;
+        background-position-y: -74px;
         background-position-x: 0;
     }
     .mob-container-right {
         width: 100%;
-        transform: translateY(-278px);
+        transform: translateY(-203px);
     }
     .mob-info {
-        padding: 0 70px;
+        padding: 0 57px;
 
     }
     .mob-info h1, p{
