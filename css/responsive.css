@@ -1,10 +1,61 @@
 @media (max-width:600px){
+    .nav-middle {
+        padding-top: 4px;
+        padding-right: 21px;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+    .navmenu {
+        position: absolute;
+        left: -122%;
+        height: 60vh;
+        padding: 0;
+        top: 5rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        box-shadow: 0 10px 27px rgba(red, green, blue, .7);
+    }
+    .nav-middle .navmenu li a{
+        color: black;
+        font-size: 20px;
+    }
+    .navmenu.active {
+        left: 0;
+        color: black;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     .nav-right {
         display: none;
     }
    .nav-left {
-    padding-left: 15px;
+    padding-left: 25px;
    }
+
+   i.fa.fa-chevron-down {
+       display: none;
+   }
+
    .head-container {
        background: url("../image/bg-pattern-intro.svg");
        background-position: center;

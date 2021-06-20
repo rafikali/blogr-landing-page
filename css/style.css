@@ -23,6 +23,62 @@ header {
     border-radius: 0 0 0 87px;
     
 }
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul, .nav-right ul{
+    display: flex;
+}
+
+
+li {
+    list-style: none;
+}
+.nav-middle ul li a, .nav-right ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--White);
+    font-family: 'Ubuntu', sans-serif;
+}
+.hamburger {
+    display: none;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background: var(--White);
+
+}
+
+
+
+.nav-right ul li a {
+    padding: 15px 28px;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 44px;
+
+}
+
+.nav-right ul li a:hover {
+    background-color: rgb(255, 169, 198);
+    transition: .7s ease;
+}
 .head-container {
     height: 562px;
     background: url("../image/bg-pattern-intro.svg");
@@ -94,39 +150,7 @@ header {
     color: rgb(252, 133, 172);
     transition: 0.7s;
 }
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
-}
 
-.nav-left ul, .nav-right ul, .nav-left{
-    display: flex;
-}
-
-
-.nav-left li, .nav-right li {
-    list-style: none;
-}
-.nav-left ul li a, .nav-right ul li a {
-    text-decoration: none;
-    margin: 10px;
-    color: var(--White);
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.nav-right ul li a {
-    padding: 15px 28px;
-    margin-right: 10px;
-    margin-left: 0;
-    border-radius: 44px;
-
-}
-
-.nav-right ul li a:hover {
-    background-color: rgb(255, 169, 198);
-    transition: .7s ease;
-}
 .container {
     display: flex;
     font-family: 'Ubuntu', sans-serif;
