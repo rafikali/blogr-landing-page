@@ -1,2 +1,2 @@
-## Blogr-landing-page
+# Blogr-landing-page
 ### demo:https://rafik-blogr.netlify.app/
